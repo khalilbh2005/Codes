@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Liste des Articles</h1>
+        <input type="text" id="BarRech" placeholder="Rechercher des articles...">
+        <select id="SOption">
+            <option value="date">Trier par date</option>
+            <option value="price">Trier par prix</option>
+            <option value="likes">Trier par nombre de likes</option>
+        </select>
+        
+        <a href="#" class="cart-icon">
+            🛒 Panier (<span id="cart-count">0</span>)
+        </a>
+    </header>
+    
+    <section id="tagsContainer">
+        <h2>Filtrer par Tags</h2>
+        <select id="tagFilter">
+            <option value="">Tous les Tags</option>
+        </select>
+    </section>
+    
+    <section id="articlesList">
+        
+    </section>
+    
+    <section id="cart">
+        <h2>Mon Panier</h2>
+        <div id="cart-items">
+            
+        </div>
+    </section>
+    
+</body>
+</html>
